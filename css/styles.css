@@ -1,0 +1,216 @@
+body {
+  margin: 0;
+  /* padding: 100px; */
+  font-family: "Merriweather", serif;
+  scroll-behavior: smooth;
+  color: #40514e;
+}
+
+/* 
+
+Nav bar and hero image
+
+*/
+
+.top-div {
+  background-color: #e4f9f5;
+  text-align: center;
+  position: relative;
+  padding: 50px;
+}
+
+.nav {
+  width: 90%;
+  margin: 0;
+}
+
+.main-profile-img {
+  position: absolute;
+  left: 17%;
+  width: 50px;
+  height: 50px;
+}
+
+.nav-link {
+  list-style-type: none;
+  color: #11999e;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-link li {
+  display: inline-block;
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+  left: 50%;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 15px;
+}
+
+.nav-link li a {
+  text-decoration: none;
+  color: #11999e;
+  font-weight: 600;
+}
+
+.nav-link li a:hover {
+  color: #051111;
+}
+
+.nav-link li.active a {
+  color: #144242;
+}
+
+/* Line separator */
+hr {
+  margin: 100px auto;
+  border: dotted #abb1b1 6px;
+  border-bottom: none;
+  width: 5%;
+}
+
+h1 {
+  margin-top: 50px;
+  margin-bottom: 10px;
+  font-family: "Pacifico", cursive;
+  font-size: 4.62rem;
+  font-weight: 100;
+  position: relative;
+  top: 25px;
+  color: #66bfbf;
+}
+
+h2 {
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  margin-top: 50px;
+  color: #66bfbf;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #66bfbf;
+  font-weight: bold;
+}
+
+.mountain {
+  position: relative;
+  top: 50px;
+}
+
+/* 
+
+Profile and Skills
+
+*/
+
+.middle-container {
+  position: relative;
+  text-align: center !important;
+  padding: 20px;
+}
+
+.profile img {
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+}
+
+.profile-description {
+  width: 25%;
+  margin: 30px auto 40px;
+  font-weight: bold;
+  line-height: 2;
+}
+
+.skills {
+  margin-top: 100px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+  margin-bottom: 150px;
+}
+
+.skill-row p {
+  font-weight: bold;
+}
+
+.skill-img {
+  width: 25%;
+  border-style: none;
+  border-radius: 50%;
+  float: left;
+  margin-right: 30px;
+}
+
+.skill-img-2 {
+  width: 25%;
+  border-style: none;
+  border-radius: 50%;
+  float: right;
+  margin-left: 30px;
+}
+
+/* 
+
+Contact Me Section
+
+*/
+
+.contact-me h2 {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.contact-me p {
+  line-height: 2;
+  width: 40%;
+  margin: 100px auto 0px;
+}
+
+.email-wannabe {
+  text-decoration: none;
+  color: #66bfbf;
+}
+/* 
+
+Footer
+
+*/
+
+.bottom-container {
+  text-align: center;
+  background-color: #66bfbf;
+  height: 170px;
+  /* margin: 100px; */
+  padding-top: 30px;
+}
+
+.footer-link {
+  margin: 0;
+}
+
+.footer-link img {
+  width: 30px;
+  margin: 0 20px;
+}
+
+.bottom-container p {
+  color: #96dada;
+  margin-top: 45px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.inspiration a {
+  color: #a0dddd;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+}
